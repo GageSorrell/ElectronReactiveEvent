@@ -1,0 +1,60 @@
+{
+  "name": "electron-reactive-event",
+  "version": "0.0.55",
+  "description": "Type-safe Electron IPC functions, including modern React hooks.",
+  "keywords": [
+    "electron",
+    "react",
+    "event",
+    "typescript",
+    "type-safe",
+    "reactive"
+  ],
+  "homepage": "https://electron-reactive-event.sorrell.sh",
+  "bugs": {
+    "url": "https://github.com/GageSorrell/SorrellWm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GageSorrell/SorrellWm.git"
+  },
+  "license": "MIT",
+  "author": {
+    "email": "gage@sorrell.sh",
+    "name": "Gage Sorrell",
+    "url": "https://sorrell.sh"
+  },
+  "type": "commonjs",
+  "exports": {
+    ".": "./Distribution/index.js",
+    "./registrar": {
+      "types": "./Distribution/Registrar/Registrar.Types.d.ts",
+      "default": "./Distribution/Registrar/Registrar.Types.js"
+    },
+    "./unsafe": "./Distribution/Unsafe/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "postinstall": "echo \"Consider installing `electron-reactive-event-cli` for automatic project setup.\""
+  },
+  "types": "./Distribution/index.d.ts",
+  "files": [
+    "./package.json",
+    "./Distribution/**/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.5.1",
+    "@types/react": "*",
+    "clipboardy": "^5.3.1"
+  },
+  "peerDependencies": {
+    "@types/react": "^19.2.14",
+    "electron": "^41.2.1",
+    "react": "^19.2.4"
+  },
+  "dependencies": {
+    "@sorrell/utilities": "^1.1.6",
+    "ora": "^9.3.0",
+    "typescript": "^6.0.2"
+  }
+}
