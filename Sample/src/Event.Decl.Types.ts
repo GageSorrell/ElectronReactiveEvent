@@ -5,7 +5,7 @@
  * @license   MIT
  */
 
-import type { EventDecl, RendererOwner } from "electron-reactive-event";
+import type { EventDecl, RendererOwner } from "reactive-event";
 
 export type SetColorTemperature = EventDecl<
     RendererOwner,

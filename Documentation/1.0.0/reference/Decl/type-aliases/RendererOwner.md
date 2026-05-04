@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Decl](../index.md) / RendererOwner
+[reactive-event](../../index.md) / [Decl](../index.md) / RendererOwner
 
 # RendererOwner Type
 

@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Error](../index.md) / ReactiveEventErrorDataInternal
+[reactive-event](../../index.md) / [Error](../index.md) / ReactiveEventErrorDataInternal
 
 # ReactiveEventErrorDataInternal Type
 

@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../../index.md) / [Channel](../../../index.md) / [Channel](../index.md) / ErrorPayload
+[reactive-event](../../../../index.md) / [Channel](../../../index.md) / [Channel](../index.md) / ErrorPayload
 
 # ErrorPayload Type
 

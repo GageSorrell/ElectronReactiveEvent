@@ -43,7 +43,7 @@ export function exposeReactiveIpcUnsafe(): void
                 send
             };
 
-        contextBridge.exposeInMainWorld("ElectronReactiveEventContextUnsafe", Context);
+        contextBridge.exposeInMainWorld("ReactiveEventContextUnsafe", Context);
     }
     catch
     {

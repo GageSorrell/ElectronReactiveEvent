@@ -2,7 +2,7 @@
 prev: false
 next: false
 ---
-[electron-reactive-event](./docs.md) / Documentation Index
+[reactive-event](./docs.md) / Documentation Index
 
 # Documentation Index
 

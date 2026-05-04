@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Internal](../index.md) / EventDeclListener
+[reactive-event](../../index.md) / [Internal](../index.md) / EventDeclListener
 
 # EventDeclListener Type
 

@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../index.md) / [Renderer/Provider](../index.md) / ReactiveEventContext
+[reactive-event](../../../index.md) / [Renderer/Provider](../index.md) / ReactiveEventContext
 
 # ReactiveEventContext Type
 
@@ -8,7 +8,7 @@ type ReactiveEventContext = object;
 
 The context used in this package. It currently only has one property, [ipcRenderer](#ipcrenderer).
 See the documentation for the [ipcRenderer](#ipcrenderer) property to see what is needed to
-use `electron-reactive-event` in the `renderer`.
+use `reactive-event` in the `renderer`.
 
 ## Properties
 

@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Internal](../index.md) / ErrorKey
+[reactive-event](../../index.md) / [Internal](../index.md) / ErrorKey
 
 # ErrorKey Type
 

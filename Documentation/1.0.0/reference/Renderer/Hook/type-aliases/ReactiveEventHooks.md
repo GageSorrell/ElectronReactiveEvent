@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / ReactiveEventHooks
+[reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / ReactiveEventHooks
 
 # ReactiveEventHooks Type
 
@@ -17,7 +17,7 @@ type ReactiveEventHooks<PackageKey> = Readonly<{
 ```
 
 The object returned by [getReactiveEventHooks](../functions/getReactiveEventHooks.md), which contains all hooks provided
-by `electron-reactive-event`. These are scoped to your [PackageKey](#packagekey).
+by `reactive-event`. These are scoped to your [PackageKey](#packagekey).
 
 It is recommended to call this once in a module of your project, and export them to be used
 throughout your project.

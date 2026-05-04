@@ -1,7 +1,7 @@
 ---
 next: false
 ---
-[electron-reactive-event](../) / [CLI](./index.md) / JSON Schema
+[reactive-event](../) / [CLI](./index.md) / JSON Schema
 
 # JSON Schema
 

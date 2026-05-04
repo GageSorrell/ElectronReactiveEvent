@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Decl](../index.md) / MainOwner
+[reactive-event](../../index.md) / [Decl](../index.md) / MainOwner
 
 # MainOwner Type
 

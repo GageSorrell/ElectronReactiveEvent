@@ -17,7 +17,7 @@ import {
 
 export default withTwoslash(defineConfig({
     description: "Type-safe Electron IPC functions, including modern React hooks.",
-    title: "Electron Reactive Event",
+    title: "Reactive Event",
 
     cleanUrls: true,
     head:
@@ -53,7 +53,7 @@ export default withTwoslash(defineConfig({
     {
         footer:
         {
-            copyright: "&copy; 2026 Gage Sorrell.  Released under the <a style=\"font-size: 14px !important;\" ref=\"https://github.com/GageSorrell/SorrellWm/blob/Master/Package/ElectronReactiveEvent/License.md\">MIT License&nbsp;<span class=\"FluentIconSmall\" aria-hidden=\"true\">&#xE8A7</span></a>.  Planet logo is owned by Microsoft."
+            copyright: "&copy; 2026 Gage Sorrell.  Released under the <a style=\"font-size: 14px !important;\" ref=\"https://github.com/GageSorrell/SorrellWm/blob/Master/Package/ReactiveEvent/License.md\">MIT License&nbsp;<span class=\"FluentIconSmall\" aria-hidden=\"true\">&#xE8A7</span></a>.  Planet logo is owned by Microsoft."
         },
         logo: "./logo.png",
         outline:
@@ -118,7 +118,7 @@ export default withTwoslash(defineConfig({
         ],
         sidebar,
         socialLinks: [
-        { icon: "github", link: "https://github.com/GageSorrell/SorrellWm/tree/Master/Package/ElectronReactiveEvent" },
+        { icon: "github", link: "https://github.com/GageSorrell/SorrellWm/tree/Master/Package/ReactiveEvent" },
         ],
     },
     vite:

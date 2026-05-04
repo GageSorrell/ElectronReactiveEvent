@@ -4,12 +4,12 @@ next:
   text: Introduction
   link: ./introduction
 ---
-[electron-reactive-event](/docs) / Articles
+[reactive-event](/docs) / Articles
 
 # Articles
 
 ::: tip Purpose
-Learn about the foundation and fundamentals of `electron-reactive-event`.
+Learn about the foundation and fundamentals of `reactive-event`.
 :::
 
 ## Pages

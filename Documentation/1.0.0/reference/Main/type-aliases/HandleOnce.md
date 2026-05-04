@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Main](../index.md) / HandleOnce
+[reactive-event](../../index.md) / [Main](../index.md) / HandleOnce
 
 # HandleOnce Type
 

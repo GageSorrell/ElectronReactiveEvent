@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Listener](../index.md) / ResponseSettled
+[reactive-event](../../index.md) / [Listener](../index.md) / ResponseSettled
 
 # ResponseSettled Type
 

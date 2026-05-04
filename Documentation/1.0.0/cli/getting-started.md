@@ -1,9 +1,9 @@
-[electron-reactive-event](../introduction.md) / [CLI](./) / Getting Started
+[reactive-event](../introduction.md) / [CLI](./) / Getting Started
 
 # Getting Started
 
 ::: tip Purpose
-This article describes how to set up your project to use the `electron-reactive-event-cli`.
+This article describes how to set up your project to use the `reactive-event-cli`.
 It is assumed in this guide that you have already completed the steps detailed in the *main* [Project Setup](../article/project-setup.md) article.
 :::
 
@@ -24,7 +24,7 @@ Depending upon your environment, you may wish to keep the CLI installed locally.
 If this is the case, then installation should be done before proceeding,
 
 ```bash
-npm install --save-dev electron-reactive-event-cli
+npm install --save-dev reactive-event-cli
 ```
 
 ## 1. Define Registrars

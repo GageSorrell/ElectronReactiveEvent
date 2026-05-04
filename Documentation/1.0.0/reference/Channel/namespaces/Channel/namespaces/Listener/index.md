@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../../../index.md) / [Channel](../../../../index.md) / [Channel](../../index.md) / Listener
+[reactive-event](../../../../../index.md) / [Channel](../../../../index.md) / [Channel](../../index.md) / Listener
 
 # Listener
 

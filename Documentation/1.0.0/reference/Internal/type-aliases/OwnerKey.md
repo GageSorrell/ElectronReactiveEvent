@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Internal](../index.md) / OwnerKey
+[reactive-event](../../index.md) / [Internal](../index.md) / OwnerKey
 
 # OwnerKey Type
 

@@ -1,4 +1,4 @@
-[electron-reactive-event](../index.md) / Renderer
+[reactive-event](../index.md) / Renderer
 
 # Renderer
 

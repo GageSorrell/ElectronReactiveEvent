@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Main](../index.md) / RemoveAllListeners
+[reactive-event](../../index.md) / [Main](../index.md) / RemoveAllListeners
 
 # RemoveAllListeners Type
 

@@ -14,7 +14,7 @@
  * package with every hook call.
  *
  * @module Hook
- * The hooks provided by `electron-reactive-event`.
+ * The hooks provided by `reactive-event`.
  */
 
 export * from "./Hook";

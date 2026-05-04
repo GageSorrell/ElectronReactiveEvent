@@ -1,7 +1,7 @@
 ---
 prev: false
 ---
-[electron-reactive-event](/docs) / [Examples](./) / Snippets
+[reactive-event](/docs) / [Examples](./) / Snippets
 
 # Example Snippets
 

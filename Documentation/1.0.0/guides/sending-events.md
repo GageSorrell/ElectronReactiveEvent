@@ -1,7 +1,7 @@
 ---
 next: false
 ---
-[electron-reactive-event](/docs) / [Guides](./) / Sending Events
+[reactive-event](/docs) / [Guides](./) / Sending Events
 
 # Sending Events
 

@@ -1,4 +1,4 @@
-[electron-reactive-event](/docs) / [Guides](./) / Registering Event Callbacks
+[reactive-event](/docs) / [Guides](./) / Registering Event Callbacks
 
 # Registering Event Callbacks
 

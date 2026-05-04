@@ -1,4 +1,4 @@
-[electron-reactive-event](../) / [CLI](./index.md) / `setup` Command
+[reactive-event](../) / [CLI](./index.md) / `setup` Command
 
 # The `setup` Command
 

@@ -346,7 +346,7 @@ export type SendEventDeferred = UseSendEvent;
 
 /**
  * The object returned by {@link getReactiveEventHooks}, which contains all hooks provided
- * by `electron-reactive-event`.  These are scoped to your {@link PackageKey}.
+ * by `reactive-event`.  These are scoped to your {@link PackageKey}.
  *
  * It is recommended to call this once in a module of your project, and export them to be used
  * throughout your project.

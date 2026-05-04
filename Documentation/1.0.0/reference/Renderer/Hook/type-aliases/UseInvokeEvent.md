@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / UseInvokeEvent
+[reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / UseInvokeEvent
 
 # UseInvokeEvent Type
 

@@ -1,7 +1,7 @@
 ---
 prev: false
 ---
-[electron-reactive-event](/docs) / [Articles](./) / Introduction
+[reactive-event](/docs) / [Articles](./) / Introduction
 
 # Introduction
 
@@ -11,7 +11,7 @@ prev: false
 <div class="TipContainer">
 
 ::: info <FluentIcon Icon="Lightbulb"/>  Ready to get started?
-Read [the Getting Started guide](../guides/getting-started) to install and start using `electron-reactive-event` in your project.
+Read [the Getting Started guide](../guides/getting-started) to install and start using `reactive-event` in your project.
 :::
 
 </div>

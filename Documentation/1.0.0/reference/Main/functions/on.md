@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Main](../index.md) / on
+[reactive-event](../../index.md) / [Main](../index.md) / on
 
 # on Function
 

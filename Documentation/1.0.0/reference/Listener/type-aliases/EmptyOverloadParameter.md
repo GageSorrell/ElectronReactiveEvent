@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Listener](../index.md) / EmptyOverloadParameter
+[reactive-event](../../index.md) / [Listener](../index.md) / EmptyOverloadParameter
 
 # EmptyOverloadParameter Type
 

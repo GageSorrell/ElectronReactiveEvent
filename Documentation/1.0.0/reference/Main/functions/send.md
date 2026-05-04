@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Main](../index.md) / send
+[reactive-event](../../index.md) / [Main](../index.md) / send
 
 # send Function
 

@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Listener](../index.md) / IpcEventFromOwner
+[reactive-event](../../index.md) / [Listener](../index.md) / IpcEventFromOwner
 
 # IpcEventFromOwner Type
 

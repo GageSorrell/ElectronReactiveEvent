@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / EqualityCheck
+[reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / EqualityCheck
 
 # EqualityCheck Type
 

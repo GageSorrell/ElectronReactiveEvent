@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Decl](../index.md) / EventErrorAdvancedDeclParameter
+[reactive-event](../../index.md) / [Decl](../index.md) / EventErrorAdvancedDeclParameter
 
 # EventErrorAdvancedDeclParameter Type
 

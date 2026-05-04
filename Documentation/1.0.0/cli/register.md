@@ -1,4 +1,4 @@
-[electron-reactive-event](../) / [CLI](./index.md) / `register` Command
+[reactive-event](../) / [CLI](./index.md) / `register` Command
 
 # The `register` Command
 

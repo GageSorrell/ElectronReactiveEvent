@@ -1,4 +1,4 @@
-[electron-reactive-event](../index.md) / Main
+[reactive-event](../index.md) / Main
 
 # Main
 
@@ -25,8 +25,8 @@
 
 | Function                                                        | Description                                                                                                                                                                         |
 | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [getReactiveIpcFunctions](functions/getReactiveIpcFunctions.md) | This is the entrypoint of `electron-reactive-event` for `main`.                                                                                                                     |
-| [getReactiveIpcMain](functions/getReactiveIpcMain.md)           | Get an object that replaces [ipcMain's](https://www.electronjs.org/docs/latest/api/ipc-main) IPC functions with their respective `electron-reactive-event`, type-safe counterparts. |
+| [getReactiveIpcFunctions](functions/getReactiveIpcFunctions.md) | This is the entrypoint of `reactive-event` for `main`.                                                                                                                     |
+| [getReactiveIpcMain](functions/getReactiveIpcMain.md)           | Get an object that replaces [ipcMain's](https://www.electronjs.org/docs/latest/api/ipc-main) IPC functions with their respective `reactive-event`, type-safe counterparts. |
 
 ## Internal
 

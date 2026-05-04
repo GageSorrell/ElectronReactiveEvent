@@ -1,7 +1,7 @@
 # Reference
 
 ::: tip Purpose
-This is the reference for `electron-reactive-event`.
+This is the reference for `reactive-event`.
 It was generated via [`typedoc`&nbsp;<FluentIcon Icon="ExternalLink" />](https://typedoc.org/) and [`typedoc-plugin-markdown` (via `typedoc-vitepress-theme`)&nbsp;<FluentIcon Icon="ExternalLink" />](https://typedoc-plugin-markdown.org/plugins/vitepress).
 :::
 

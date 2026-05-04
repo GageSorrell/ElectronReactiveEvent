@@ -1,4 +1,4 @@
-[electron-reactive-event](../index.md) / Error
+[reactive-event](../index.md) / Error
 
 # Error
 

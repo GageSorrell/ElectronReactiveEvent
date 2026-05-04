@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Listener](../index.md) / RawResponse
+[reactive-event](../../index.md) / [Listener](../index.md) / RawResponse
 
 # RawResponse Type
 
@@ -12,7 +12,7 @@ Your [handlers](Handler.md) can return values directly using the types in your e
 _i.e._, return your `ResponseType` when your event succeeds, and the `ErrorType` when
 your event fails.
 
-`electron-reactive-event` transforms your return value before sending it to the `renderer`
+`reactive-event` transforms your return value before sending it to the `renderer`
 so that it receives data in a homogenous structure: the [Response](Response.md) type.
 
 ## Type Parameters

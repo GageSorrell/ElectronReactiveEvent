@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / InvokeResponseInternal
+[reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / InvokeResponseInternal
 
 # InvokeResponseInternal Type
 

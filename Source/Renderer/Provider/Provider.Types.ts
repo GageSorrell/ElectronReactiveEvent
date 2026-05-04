@@ -13,7 +13,7 @@ import type { PropsWithChildren } from "react";
 /**
  * The context used in this package.  It currently only has one property, {@link ipcRenderer}.
  * See the documentation for the {@link ipcRenderer} property to see what is needed to
- * use `electron-reactive-event` in the `renderer`.
+ * use `reactive-event` in the `renderer`.
  */
 export type ReactiveEventContext =
     {

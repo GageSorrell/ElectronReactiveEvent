@@ -1,4 +1,4 @@
-[electron-reactive-event](/docs) / [Articles](./) / Requirements
+[reactive-event](/docs) / [Articles](./) / Requirements
 
 # Project Requirements
 

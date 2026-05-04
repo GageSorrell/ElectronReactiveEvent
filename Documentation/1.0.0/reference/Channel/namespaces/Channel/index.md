@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../index.md) / [Channel](../../index.md) / Channel
+[reactive-event](../../../index.md) / [Channel](../../index.md) / Channel
 
 # Channel
 

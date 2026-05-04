@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Main](../index.md) / RemoveHandler
+[reactive-event](../../index.md) / [Main](../index.md) / RemoveHandler
 
 # RemoveHandler Type
 

@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Decl](../index.md) / EventErrorRecord
+[reactive-event](../../index.md) / [Decl](../index.md) / EventErrorRecord
 
 # EventErrorRecord Type
 

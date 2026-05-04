@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Main](../index.md) / SendableEventHandler
+[reactive-event](../../index.md) / [Main](../index.md) / SendableEventHandler
 
 # SendableEventHandler Type
 

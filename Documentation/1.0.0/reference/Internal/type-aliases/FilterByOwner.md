@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Internal](../index.md) / FilterByOwner
+[reactive-event](../../index.md) / [Internal](../index.md) / FilterByOwner
 
 # FilterByOwner Type
 

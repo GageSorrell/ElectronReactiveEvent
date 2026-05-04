@@ -3,7 +3,7 @@ sidebar: false
 next: false
 ---
 
-[electron-reactive-event](/docs) / Contact
+[reactive-event](/docs) / Contact
 
 # Contact Information
 
@@ -24,7 +24,7 @@ Feel free to share any feedback.
 Thank you,
 <br /><a href="https://sorrell.sh">Gage Sorrell</a>
 
-Developer of `electron-reactive-event`.
+Developer of `reactive-event`.
 </div>
 
 

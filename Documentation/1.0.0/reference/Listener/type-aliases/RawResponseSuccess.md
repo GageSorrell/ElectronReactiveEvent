@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Listener](../index.md) / RawResponseSuccess
+[reactive-event](../../index.md) / [Listener](../index.md) / RawResponseSuccess
 
 # RawResponseSuccess Type
 

@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / InvokeOptions
+[reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / InvokeOptions
 
 # InvokeOptions Type
 

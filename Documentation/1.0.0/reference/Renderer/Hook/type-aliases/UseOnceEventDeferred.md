@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / UseOnceEventDeferred
+[reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / UseOnceEventDeferred
 
 # UseOnceEventDeferred Type
 

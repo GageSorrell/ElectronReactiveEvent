@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Listener](../index.md) / RawResponseError
+[reactive-event](../../index.md) / [Listener](../index.md) / RawResponseError
 
 # RawResponseError Type
 

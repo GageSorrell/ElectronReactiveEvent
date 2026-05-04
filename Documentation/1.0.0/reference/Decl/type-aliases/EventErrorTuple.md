@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Decl](../index.md) / EventErrorTuple
+[reactive-event](../../index.md) / [Decl](../index.md) / EventErrorTuple
 
 # EventErrorTuple Type
 

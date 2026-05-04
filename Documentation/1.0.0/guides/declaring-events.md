@@ -1,4 +1,4 @@
-[electron-reactive-event](/docs) / [Guides](./) / Declaring Events
+[reactive-event](/docs) / [Guides](./) / Declaring Events
 
 # Declaring Events
 

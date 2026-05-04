@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Internal](../index.md) / RequestKey
+[reactive-event](../../index.md) / [Internal](../index.md) / RequestKey
 
 # RequestKey Type
 

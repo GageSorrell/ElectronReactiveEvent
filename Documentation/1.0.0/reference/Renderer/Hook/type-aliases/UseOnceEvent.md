@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / UseOnceEvent
+[reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / UseOnceEvent
 
 # UseOnceEvent Type
 

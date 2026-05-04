@@ -9,7 +9,7 @@
 
 import type { LogLevel, LogOptions, LogStatements } from "./Log.Types";
 import { GetElectron } from "./Electron";
-import { IsRuntimeModeProduction } from "@sorrell/utilities/misc";
+import { IsRuntimeModeProduction } from "@sorrell/utilities/dependency";
 import type { app } from "electron";
 
 /**
@@ -34,7 +34,7 @@ const DefaultLogOptions: LogOptions =
     };
 
 /**
- * Log statements regarding `electron-reactive-event`.
+ * Log statements regarding `reactive-event`.
  * Logging is disabled when {@link IsDependentModeProduction} returns `true`.
  *
  * @param Options - The {@link LogOptions} object that customizes the behavior of this log operation.
@@ -43,7 +43,7 @@ const DefaultLogOptions: LogOptions =
 export function Log(Options: Partial<LogOptions>, ...Statements: LogStatements): void;
 
 /**
- * Log statements regarding `electron-reactive-event`.
+ * Log statements regarding `reactive-event`.
  * Logging is disabled when {@link IsDependentModeProduction} returns `true`.
  *
  * @param Statements - The statements to log.
@@ -51,7 +51,7 @@ export function Log(Options: Partial<LogOptions>, ...Statements: LogStatements):
 export function Log(...Statements: LogStatements): void;
 
 /**
- * Log statements regarding `electron-reactive-event`.
+ * Log statements regarding `reactive-event`.
  * It is first determined whether the zeroth element of the {@link ArgumentVector}, if one exists,
  * is a {@link LogOptions} object.  If the zeroth element *is* a {@link LogOptions} object, then
  * this will be used to customize the behavior of this log operation.
@@ -110,7 +110,7 @@ export function Log(...ArgumentVector: Array<unknown>): void
         Index: number
     ): Array<unknown> =>
     {
-        const PackagePrefix: string = "[electron-reactive-event]";
+        const PackagePrefix: string = "[reactive-event]";
         if (typeof Statement === "string")
         {
             return [ `${ PackagePrefix } ${ Statement }` ];
@@ -144,9 +144,9 @@ export function Log(...ArgumentVector: Array<unknown>): void
         ? "statements were"
         : "statement was";
     const LogSuppressionStatement: string =
-        `[electron-reactive-event] The above ${ StatementsPhrase } ` +
+        `[reactive-event] The above ${ StatementsPhrase } ` +
         " because it was determined that the current app is not running in production mode.  " +
-        "To suppress logs from electron-reactive-event, set ELECTRON_REACTIVE_EVENT_LOG === \"0\" " +
+        "To suppress logs from reactive-event, set ELECTRON_REACTIVE_EVENT_LOG === \"0\" " +
         "or set one of the other conditions described in the FAQ " +
         "(https://link.sorrell.sh/reactive-disable-logging).";
 

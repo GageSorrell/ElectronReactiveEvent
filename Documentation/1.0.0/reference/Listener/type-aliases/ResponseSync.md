@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Listener](../index.md) / ResponseSync
+[reactive-event](../../index.md) / [Listener](../index.md) / ResponseSync
 
 # ResponseSync Type
 

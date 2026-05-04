@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Listener](../index.md) / HandlerRequest
+[reactive-event](../../index.md) / [Listener](../index.md) / HandlerRequest
 
 # HandlerRequest Type
 

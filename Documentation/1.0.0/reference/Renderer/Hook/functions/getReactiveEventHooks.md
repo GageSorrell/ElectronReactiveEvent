@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / getReactiveEventHooks
+[reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / getReactiveEventHooks
 
 # getReactiveEventHooks Function
 
@@ -6,9 +6,9 @@
 function getReactiveEventHooks<PackageKey>(): ReactiveEventHooks<PackageKey>;
 ```
 
-This is the entrypoint of `electron-reactive-event` in the `renderer`.
+This is the entrypoint of `reactive-event` in the `renderer`.
 To use these functions, you must wrap the part of your application in which
-you wish to use `electron-reactive-event` in a ReactiveEventProvider
+you wish to use `reactive-event` in a ReactiveEventProvider
 (to which you must supply the necessary
 [IpcRenderer functions](https://www.electronjs.org/docs/latest/api/ipc-renderer)).
 
@@ -24,4 +24,4 @@ The unique string that identifies your package.
 
 [`ReactiveEventHooks`](../type-aliases/ReactiveEventHooks.md)\<`PackageKey`\>
 
-The hooks provided by `electron-reactive-event`, scoped to your [PackageKey](#getreactiveeventhookspackagekey).
+The hooks provided by `reactive-event`, scoped to your [PackageKey](#getreactiveeventhookspackagekey).

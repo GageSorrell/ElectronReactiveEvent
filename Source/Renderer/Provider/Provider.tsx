@@ -10,18 +10,18 @@ import { type ReactNode } from "react";
 import { ReactiveEventInternalContext } from "./Provider.Internal";
 
 /**
- * This is what provides the `electron-reactive-event` hooks with the
+ * This is what provides the `reactive-event` hooks with the
  * necessary IPC functions from
  * {@link https://www.electronjs.org/docs/latest/api/ipc-renderer | IpcRenderer }.
- * This must wrap your application where `electron-reactive-event` is used.
+ * This must wrap your application where `reactive-event` is used.
  *
  * @see {@link /guides/getting-started} for more details.
  *
  * @param Props - The children and necessary IPC functions.
- * @param Props.children - The portion of your application which uses `electron-reactive-event`.
- * @param Props.value - The IPC functions needed by `electron-reactive-event`.
+ * @param Props.children - The portion of your application which uses `reactive-event`.
+ * @param Props.value - The IPC functions needed by `reactive-event`.
  *
- * @returns Your application, equipped with the functionality needed to use `electron-reactive-event`.
+ * @returns Your application, equipped with the functionality needed to use `reactive-event`.
  */
 export function ReactiveEventProvider(
     { children, value }: ReactiveEventProviderProps
@@ -38,19 +38,19 @@ export function ReactiveEventProvider(
                 "send"
             ];
 
-        type WindowType = { ElectronReactiveEventContextUnsafe: ReactiveEventContext; };
+        type WindowType = { ReactiveEventContextUnsafe: ReactiveEventContext; };
 
         const IsUnsafePreloadUsed: boolean = (
-            "ElectronReactiveEventContextUnsafe" in window &&
-            typeof window.ElectronReactiveEventContextUnsafe === "object" &&
-            window.ElectronReactiveEventContextUnsafe !== null &&
-            "ipcRenderer" in window.ElectronReactiveEventContextUnsafe &&
-            typeof window.ElectronReactiveEventContextUnsafe.ipcRenderer === "object" &&
-            window.ElectronReactiveEventContextUnsafe.ipcRenderer !== null &&
+            "ReactiveEventContextUnsafe" in window &&
+            typeof window.ReactiveEventContextUnsafe === "object" &&
+            window.ReactiveEventContextUnsafe !== null &&
+            "ipcRenderer" in window.ReactiveEventContextUnsafe &&
+            typeof window.ReactiveEventContextUnsafe.ipcRenderer === "object" &&
+            window.ReactiveEventContextUnsafe.ipcRenderer !== null &&
             ((): boolean =>
             {
                 const ContextUnsafe: ReactiveEventContext = (window as unknown as WindowType)
-                    .ElectronReactiveEventContextUnsafe as ReactiveEventContext;
+                    .ReactiveEventContextUnsafe as ReactiveEventContext;
 
                 const ContextKeys: Array<string> = Object.keys(ContextUnsafe.ipcRenderer);
                 return (
@@ -71,7 +71,7 @@ export function ReactiveEventProvider(
         if (IsUnsafePreloadUsed)
         {
             const ContextUnsafe: ReactiveEventContext = (window as unknown as WindowType)
-                .ElectronReactiveEventContextUnsafe as ReactiveEventContext;
+                .ReactiveEventContextUnsafe as ReactiveEventContext;
 
             value =
                 {

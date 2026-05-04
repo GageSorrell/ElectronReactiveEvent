@@ -30,7 +30,7 @@ const EmptyReactiveEventContextInternal: ReactiveEventContextInternal =
 /* eslint-disable jsdoc/require-jsdoc */
 
 /**
- * This is the context used by `electron-reactive-event`.
+ * This is the context used by `reactive-event`.
  *
  * @group Internal
  */

@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Main](../index.md) / removeHandler
+[reactive-event](../../index.md) / [Main](../index.md) / removeHandler
 
 # removeHandler Function
 

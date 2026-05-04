@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Main](../index.md) / getReactiveIpcFunctions
+[reactive-event](../../index.md) / [Main](../index.md) / getReactiveIpcFunctions
 
 # getReactiveIpcFunctions Function
 
@@ -8,7 +8,7 @@ function getReactiveIpcFunctions<
 >(): ReactiveEventFunctions<PackageKey>;
 ```
 
-This is the entrypoint of `electron-reactive-event` for `main`.
+This is the entrypoint of `reactive-event` for `main`.
 
 ## Type Parameters
 

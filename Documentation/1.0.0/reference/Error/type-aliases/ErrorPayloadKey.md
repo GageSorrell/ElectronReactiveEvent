@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Error](../index.md) / ErrorPayloadKey
+[reactive-event](../../index.md) / [Error](../index.md) / ErrorPayloadKey
 
 # ErrorPayloadKey Type
 

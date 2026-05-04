@@ -86,7 +86,7 @@ type EventDeclBase<
     };
 
 /**
- * All events in `electron-reactive-event` are modeled with this type.
+ * All events in `reactive-event` are modeled with this type.
  *
  * @note One important distinction is that event declarations with a {@link ResponseType}
  * can only have `OwnerType === {@link RendererOwner}`.  This is a consequence of only

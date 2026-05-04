@@ -10,7 +10,7 @@
  * Content used internally by the {@link Provider} module.
  *
  * @module Provider
- * The provider of `electron-reactive-event`, and related content.
+ * The provider of `reactive-event`, and related content.
  */
 
 export * from "./Provider";

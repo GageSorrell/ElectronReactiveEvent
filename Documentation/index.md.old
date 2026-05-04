@@ -2,23 +2,23 @@
 layout: home
 
 hero:
-  name: "Electron Reactive Event"
+  name: "Reactive Event"
   tagline: "Type-safe Electron IPC functions, including modern React hooks."
   image:
     src: "./hero.png"
-    alt: "Electron Reactive Event Logo, Hero-Sized."
+    alt: "Reactive Event Logo, Hero-Sized."
   actions:
     - theme: brand
       text: Read the Docs
       link: /articles/introduction
     - theme: alt
       text: "View the Source"
-      link: "https://github.com/GageSorrell/SorrellWm/tree/Master/Package/ElectronReactiveEvent"
+      link: "https://github.com/GageSorrell/SorrellWm/tree/Master/Package/ReactiveEvent"
 
 features:
   - title: "Type-safe event handling"
     # icon: "🦺"
-    details: "Everything is typed: callbacks, request arguments, response values, and errors.  Define your event types, and everything in <code>electron-reactive-event</code> will follow."
+    details: "Everything is typed: callbacks, request arguments, response values, and errors.  Define your event types, and everything in <code>reactive-event</code> will follow."
   - title: "Modern React hooks"
     # icon: "🪝"
     details: "Hooks use modern React features like <code>use</code> and transitions.  All functionality is wrapped with common hook idioms, including <code>Deferred</code> variants for most hooks."

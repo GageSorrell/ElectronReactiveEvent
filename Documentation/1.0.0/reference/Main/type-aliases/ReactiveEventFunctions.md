@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Main](../index.md) / ReactiveEventFunctions
+[reactive-event](../../index.md) / [Main](../index.md) / ReactiveEventFunctions
 
 # ReactiveEventFunctions Type
 

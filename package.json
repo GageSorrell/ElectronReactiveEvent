@@ -1,5 +1,5 @@
 {
-  "name": "electron-reactive-event",
+  "name": "reactive-event",
   "version": "0.0.58",
   "description": "Type-safe Electron IPC functions, including modern React hooks.",
   "keywords": [
@@ -10,12 +10,12 @@
     "type-safe",
     "reactive"
   ],
-  "homepage": "https://electron-reactive-event.sorrell.sh",
+  "homepage": "https://reactive-event.sorrell.sh",
   "bugs": {
     "url": "https://github.com/GageSorrell/SorrellWm/issues"
   },
   "repository": {
-    "directory": "Package/ElectronReactiveEvent",
+    "directory": "Package/ReactiveEvent",
     "type": "git",
     "url": "git+https://github.com/GageSorrell/SorrellWm.git"
   },
@@ -32,7 +32,7 @@
   },
   "scripts": {
     "build": "tsc -p ./tsconfig.json",
-    "postinstall": "echo 'Consider installing [`electron-reactive-event-cli`](https://www.npmjs.com/package/electron-reactive-event-cli) for automatic project setup.'",
+    "postinstall": "echo 'Consider installing [`reactive-event-cli`](https://www.npmjs.com/package/reactive-event-cli) for automatic project setup.'",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
@@ -63,7 +63,7 @@
     "react": "^19.2.5"
   },
   "dependencies": {
-    "@sorrell/utilities": "^1.2.5",
+    "@sorrell/utilities": "^1.2.7",
     "ora": "^9.3.0",
     "typescript": "npm:tsover@^6.0.0"
   },

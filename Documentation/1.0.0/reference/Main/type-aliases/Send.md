@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Main](../index.md) / Send
+[reactive-event](../../index.md) / [Main](../index.md) / Send
 
 # Send Type
 

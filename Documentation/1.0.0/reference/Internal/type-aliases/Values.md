@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Internal](../index.md) / Values
+[reactive-event](../../index.md) / [Internal](../index.md) / Values
 
 # Values Type
 

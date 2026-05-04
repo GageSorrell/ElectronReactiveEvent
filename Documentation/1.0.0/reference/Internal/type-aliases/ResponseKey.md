@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Internal](../index.md) / ResponseKey
+[reactive-event](../../index.md) / [Internal](../index.md) / ResponseKey
 
 # ResponseKey Type
 

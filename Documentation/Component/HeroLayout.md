@@ -1,7 +1,7 @@
 <div class="vp-doc">
 
 ```bash
-npm install electron-reactive-event --save
+npm install reactive-event --save
 ```
 
 </div>

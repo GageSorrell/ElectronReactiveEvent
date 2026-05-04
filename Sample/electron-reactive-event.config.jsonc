@@ -1,8 +1,8 @@
 {
-    "$schema": "https://electron-reactive-event.sorrell.sh/CliConfig.Schema.json",
-    "AugmentationModulePath": "E:\\SorrellWm\\Package\\ElectronReactiveEvent\\Sample\\src\\Reactive.Events.Generated.Types.ts",
-    "PackageKey": "electronreactiveeventsample",
-    "ScopedModulePath": "E:\\SorrellWm\\Package\\ElectronReactiveEvent\\Sample\\src\\Reactive.Generated.ts",
+    "$schema": "https://reactive-event.sorrell.sh/CliConfig.Schema.json",
+    "AugmentationModulePath": "E:\\SorrellWm\\Package\\ReactiveEvent\\Sample\\src\\Reactive.Events.Generated.Types.ts",
+    "PackageKey": "Reactiveeventsample",
+    "ScopedModulePath": "E:\\SorrellWm\\Package\\ReactiveEvent\\Sample\\src\\Reactive.Generated.ts",
     "IpcModulePath":
     {
         "Main": "./src/Main.Generated.ts",

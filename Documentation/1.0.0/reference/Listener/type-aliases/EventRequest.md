@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Listener](../index.md) / EventRequest
+[reactive-event](../../index.md) / [Listener](../index.md) / EventRequest
 
 # EventRequest Type
 

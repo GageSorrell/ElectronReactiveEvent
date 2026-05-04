@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Decl](../index.md) / EventDecl
+[reactive-event](../../index.md) / [Decl](../index.md) / EventDecl
 
 # EventDecl Type
 
@@ -15,7 +15,7 @@ type EventDecl<OwnerType, RequestType, ResponseType, ErrorType> =
 			: never;
 ```
 
-All events in `electron-reactive-event` are modeled with this type.
+All events in `reactive-event` are modeled with this type.
 
 ## Type Parameters
 

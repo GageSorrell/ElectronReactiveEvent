@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../index.md) / [Renderer/Provider](../index.md) / ReactiveEventProviderProps
+[reactive-event](../../../index.md) / [Renderer/Provider](../index.md) / ReactiveEventProviderProps
 
 # ReactiveEventProviderProps Type
 

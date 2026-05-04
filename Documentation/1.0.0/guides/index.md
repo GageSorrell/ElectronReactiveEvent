@@ -4,12 +4,12 @@ next:
   text: Project Setup
   link: ./project-setup
 ---
-[electron-reactive-event](/docs) / Guides
+[reactive-event](/docs) / Guides
 
 # Guides
 
 ::: tip Purpose
-Read about the key workflows for using `electron-reactive-event` in your project.
+Read about the key workflows for using `reactive-event` in your project.
 :::
 
 ## Pages

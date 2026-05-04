@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../../index.md) / [Channel](../../../index.md) / [Channel](../index.md) / ErrorMessageOnly
+[reactive-event](../../../../index.md) / [Channel](../../../index.md) / [Channel](../index.md) / ErrorMessageOnly
 
 # ErrorMessageOnly Type
 

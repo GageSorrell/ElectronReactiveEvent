@@ -30,14 +30,14 @@ import {
 } from "./Hook.Internal";
 
 /**
- * This is the entrypoint of `electron-reactive-event` in the `renderer`.
+ * This is the entrypoint of `reactive-event` in the `renderer`.
  * To use these functions, you must wrap the part of your application in which
- * you wish to use `electron-reactive-event` in a {@link ReactiveEventProvider}
+ * you wish to use `reactive-event` in a {@link ReactiveEventProvider}
  * (to which you must supply the necessary
  * {@link https://www.electronjs.org/docs/latest/api/ipc-renderer | IpcRenderer functions}).
  *
  *
- * @returns The hooks provided by `electron-reactive-event`, scoped to your {@link PackageKey}.
+ * @returns The hooks provided by `reactive-event`, scoped to your {@link PackageKey}.
  */
 export function getReactiveHooks(): ReactiveIpcHooks
 {

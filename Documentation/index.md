@@ -2,11 +2,11 @@
 layout: home
 
 hero:
-  name: "Electron Reactive Event"
+  name: "Reactive Event"
   tagline: "Type-safe Electron IPC functions, including modern React hooks."
   image:
     src: "./hero.png"
-    alt: "Electron Reactive Event Logo, Hero-Sized."
+    alt: "Reactive Event Logo, Hero-Sized."
   actions:
     - theme: brand
       text: Get Started
@@ -18,7 +18,7 @@ hero:
 features:
   - title: "Type-safe event handling"
     # icon: "🦺"
-    details: "Everything is typed: callbacks, request arguments, response values, and errors.  Define your event types, and everything in <code>electron-reactive-event</code> will follow."
+    details: "Everything is typed: callbacks, request arguments, response values, and errors.  Define your event types, and everything in <code>reactive-event</code> will follow."
   - title: "Modern React hooks"
     # icon: "🪝"
     details: "Hooks use modern React features like <code>use</code> and transitions.  All functionality is wrapped with common hook idioms, including <code>Deferred</code> variants for most hooks."
@@ -136,7 +136,7 @@ On("GetPlayerIDs", async () =>
 
 ## Works seamlessly with React
 
-The hooks provided by `electron-reactive-event` support modern features, including suspending and transitions.
+The hooks provided by `reactive-event` support modern features, including suspending and transitions.
 
 Most hooks have `Deferred` counterparts, which are `async` and open up more options for interacting with `main`.
 
@@ -246,9 +246,9 @@ Call it when you create new event types, or include it in your build step.
 
 ```ts {12}
 // [!code word:▌]
-$ npx electron-reactive-event-cli register
+$ npx reactive-event-cli register
 
-> electron-reactive-event (version 1.1.0)
+> reactive-event (version 1.1.0)
 > register
 
 ✓ Found configuration file in default location!

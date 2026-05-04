@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Main](../index.md) / Off
+[reactive-event](../../index.md) / [Main](../index.md) / Off
 
 # Off Type
 

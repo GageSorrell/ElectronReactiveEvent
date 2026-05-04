@@ -1,12 +1,12 @@
 ---
 next: false
 ---
-[electron-reactive-event](/docs) / [Examples](./) / Sample Project
+[reactive-event](/docs) / [Examples](./) / Sample Project
 
 # Sample Project
 
 ::: tip Purpose
-A sample project is presented herein, which demonstrates each feature provided by `electron-reactive-event`.
+A sample project is presented herein, which demonstrates each feature provided by `reactive-event`.
 The project is also configured to use the [CLI](../cli/introduction).
 :::
 
@@ -22,7 +22,7 @@ This project was used throughout development, and showcases each feature&mdash;t
 
 ## How to Run the Sample
 
-The sample project is hosted in the [SorrellWm](https://wm.sorrell.sh) monorepo (as are `electron-reactive-event` and `electron-reactive-event-cli`).
+The sample project is hosted in the [SorrellWm](https://wm.sorrell.sh) monorepo (as are `reactive-event` and `reactive-event-cli`).
 This monorepo structure precludes the use of tools like `degit` as an easy way to download the sample project.
 
 ### Download via the CLI
@@ -30,15 +30,15 @@ This monorepo structure precludes the use of tools like `degit` as an easy way t
 To make this process easier, the CLI provides a command to download the sample project,
 
 ```bash
-npx electron-reactive-event-cli download-sample
+npx reactive-event-cli download-sample
 ```
 
-This command will download the project in the working directory, at path `./electron-reactive-event-sample`.
+This command will download the project in the working directory, at path `./reactive-event-sample`.
 
 From there,
 
 ```bash
-cd electron-reactive-event-sample
+cd reactive-event-sample
 npm install
 npm run start
 ```
@@ -51,7 +51,7 @@ Run the above CLI command with the `--run` flag to download the project *and* ru
 That is, use
 
 ```bash
-npx electron-reactive-event-cli download-sample --run
+npx reactive-event-cli download-sample --run
 ```
 for a fully automated process.
 :::
@@ -70,7 +70,7 @@ git clone https://github.com/GageSorrell/SorrellWm
 The remaining steps are nearly identical to the above,
 
 ```bash
-cd SorrellWm/Development/ElectronReactiveEventSample
+cd SorrellWm/Development/ReactiveEventSample
 npm install
 npm run start
 ```

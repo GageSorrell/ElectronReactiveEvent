@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / InvokeEventDeferred
+[reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / InvokeEventDeferred
 
 # InvokeEventDeferred Type
 

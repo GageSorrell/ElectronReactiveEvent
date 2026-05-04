@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../../index.md) / [Channel](../../../index.md) / [Channel](../index.md) / Any
+[reactive-event](../../../../index.md) / [Channel](../../../index.md) / [Channel](../index.md) / Any
 
 # Any Type
 

@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../index.md) / [Renderer/Provider](../index.md) / ReactiveEventProvider
+[reactive-event](../../../index.md) / [Renderer/Provider](../index.md) / ReactiveEventProvider
 
 # ReactiveEventProvider Function
 
@@ -6,10 +6,10 @@
 function ReactiveEventProvider(Props): ReactNode;
 ```
 
-This is what provides the `electron-reactive-event` hooks with the
+This is what provides the `reactive-event` hooks with the
 necessary IPC functions from
 [IpcRenderer](https://www.electronjs.org/docs/latest/api/ipc-renderer).
-This must wrap your application where `electron-reactive-event` is used.
+This must wrap your application where `reactive-event` is used.
 
 ## Parameters
 
@@ -23,7 +23,7 @@ The children and necessary IPC functions.
 
 `ReactNode`
 
-Your application, equipped with the functionality needed to use `electron-reactive-event`.
+Your application, equipped with the functionality needed to use `reactive-event`.
 
 ## See
 

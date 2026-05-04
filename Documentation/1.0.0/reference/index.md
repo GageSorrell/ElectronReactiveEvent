@@ -1,4 +1,4 @@
-# electron-reactive-event
+# reactive-event
 
 ## Modules
 

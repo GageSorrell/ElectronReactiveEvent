@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Main](../index.md) / IpcMainReactive
+[reactive-event](../../index.md) / [Main](../index.md) / IpcMainReactive
 
 # IpcMainReactive Type
 

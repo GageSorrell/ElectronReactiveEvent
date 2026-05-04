@@ -33,7 +33,7 @@ export type EventOwner =
  *
  * Event declarations are added to the `Registrar` via
  * {@link https://www.typescriptlang.org/docs/handbook/declaration-merging.html | module augmentation}.
- * Writing these `declare module` blocks is automated by the `electron-reactive-event-cli`,
+ * Writing these `declare module` blocks is automated by the `reactive-event-cli`,
  * although using this is optional.
  */
 export interface Registrar { }

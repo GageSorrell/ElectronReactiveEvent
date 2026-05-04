@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / RendererListener
+[reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / RendererListener
 
 # RendererListener Type
 

@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../../index.md) / [Channel](../../../index.md) / [Channel](../index.md) / NoResponse
+[reactive-event](../../../../index.md) / [Channel](../../../index.md) / [Channel](../index.md) / NoResponse
 
 # NoResponse Type
 

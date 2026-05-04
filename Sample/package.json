@@ -1,10 +1,10 @@
 {
-  "name": "electron-reactive-event-sample",
-  "description": "Sample project for showcasing `electron-reactive-event`, based on the `electron-react-boilerplate` template.",
+  "name": "reactive-event-sample",
+  "description": "Sample project for showcasing `reactive-event`, based on the `electron-react-boilerplate` template.",
   "keywords": [
     "electron",
     "react",
-    "electron-reactive-event",
+    "reactive-event",
     "reactive",
     "typescript",
     "ts",
@@ -13,12 +13,12 @@
     "sample",
     "example"
   ],
-  "homepage": "https://electron-reactive-event.sorrell.sh",
+  "homepage": "https://reactive-event.sorrell.sh",
   "bugs": {
     "url": "https://github.com/GageSorrell/SorrellWm/issues"
   },
   "repository": {
-    "directory": "Package/ElectronReactiveEvent/Sample",
+    "directory": "Package/ReactiveEvent/Sample",
     "type": "git",
     "url": "git+https://github.com/GageSorrell/SorrellWm.git"
   },
@@ -106,7 +106,7 @@
     "@electron/notarize": "^3.0.0",
     "electron-debug": "^4.1.0",
     "electron-log": "^5.3.2",
-    "electron-reactive-event": "^0.0.57",
+    "reactive-event": "^0.0.58",
     "electron-updater": "^6.3.9",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
@@ -138,7 +138,7 @@
     "electron": "^41.4.0",
     "electron-builder": "^25.1.8",
     "electron-devtools-installer": "^4.0.0",
-    "electron-reactive-event-cli": "^1.0.111",
+    "reactive-event-cli": "^1.0.111",
     "electronmon": "^2.0.3",
     "eslint": "^8.57.1",
     "eslint-import-resolver-typescript": "^4.1.1",

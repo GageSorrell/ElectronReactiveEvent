@@ -14,7 +14,7 @@
  * package with every hook call.
  *
  * @module Main
- * The content provided by `electron-reactive-event` to use in `main`.
+ * The content provided by `reactive-event` to use in `main`.
  *
  * The key entrypoints are {@link Main.getReactiveEventHooks | getReactiveEventHooks} and
  * {@link Main.getReactiveIpcMain | getReactiveIpcMain }.  The surface of the {@link Main}

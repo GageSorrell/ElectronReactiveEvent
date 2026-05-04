@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Decl](../index.md) / EmptyEventParameter
+[reactive-event](../../index.md) / [Decl](../index.md) / EmptyEventParameter
 
 # EmptyEventParameter Type
 

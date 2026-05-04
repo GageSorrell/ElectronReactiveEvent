@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / useSendEvent
+[reactive-event](../../../index.md) / [Renderer/Hook](../index.md) / useSendEvent
 
 # useSendEvent Function
 

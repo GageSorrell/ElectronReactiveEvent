@@ -1,4 +1,4 @@
-[electron-reactive-event](../../../index.md) / [Renderer/Provider](../index.md) / ReactiveEventContextInternal
+[reactive-event](../../../index.md) / [Renderer/Provider](../index.md) / ReactiveEventContextInternal
 
 # ReactiveEventContextInternal Type
 

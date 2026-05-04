@@ -1,12 +1,12 @@
 ---
 prev: false
 ---
-[electron-reactive-event](/docs) / [CLI](./index.md) / Introduction
+[reactive-event](/docs) / [CLI](./index.md) / Introduction
 
 # Introduction to the CLI
 
 ::: tip Purpose
-This article describes the helper package `electron-reactive-event-cli`.
+This article describes the helper package `reactive-event-cli`.
 Using this package is optional, and automates writing boilerplate code needed to register your [event declarations](../articles/glossary.md#event-declaration) with your [registrar interfaces](../articles/glossary.md#registrar).
 :::
 
@@ -23,21 +23,21 @@ It is expected that most developers will want their event declarations to live a
 
 Event declarations are grouped by registrar interfaces, and these registrar interfaces are what the developer passes to the factories provided by this package.
 
-The issue presented by the above is that defining event declarations should be *decentralized* (in most cases), but a *central* definition (*i.e.*, registrar interfaces) is required for `electron-reactive-event` to ingest them.
+The issue presented by the above is that defining event declarations should be *decentralized* (in most cases), but a *central* definition (*i.e.*, registrar interfaces) is required for `reactive-event` to ingest them.
 
 Fortunately, TypeScript allows for interfaces to be extended via [module augmentation <FluentIcon Icon="ExternalLink" />](https://www.typescriptlang.org/docs/handbook/declaration-merging.html#module-augmentation).
 This feature allows for the registrar interfaces in your project to be supplemented with your event declarations, regardless of where they are in your project.
 
 However, `declare module` blocks are lengthy, and are tedious to write for *every* module in which an event declaration is defined.
 
-To address this, a CLI package `electron-reactive-event-cli` was created, which writes these `declare module` blocks for you.
+To address this, a CLI package `reactive-event-cli` was created, which writes these `declare module` blocks for you.
 They are written to a single module, which can exist anywhere in your project that is recognized by your project's [TSConfig's `include` property&nbsp;<FluentIcon Small Icon="ExternalLink"/>](https://www.typescriptlang.org/tsconfig/#include).
 
 ## Getting Started
 
 Follow the steps in the [Project Setup](./project-setup.md) article to perform the minimum setup needed to run the interactive wizard provided by the `setup` command.
 
-If your project already uses `electron-reactive-event`, then you have likely done everything in the [Project Setup](./project-setup.md) article.
+If your project already uses `reactive-event`, then you have likely done everything in the [Project Setup](./project-setup.md) article.
 If this is the case, then you may skip ahead to the [`setup` Command](./setup.md) article.
 
 The interactive wizard provided by the `setup` command will notify you if a prerequisite step has not been completed.
@@ -66,13 +66,13 @@ The `register` command generates the `declare module` blocks in the modules cont
 
 ### The `setup` Command
 
-Running `npx electron-reactive-event-cli setup` launches an interactive wizard, in which the user is prompted to create a module (or two) in which they define the interfaces ("registrars") for `main` and `renderer` event declarations.
+Running `npx reactive-event-cli setup` launches an interactive wizard, in which the user is prompted to create a module (or two) in which they define the interfaces ("registrars") for `main` and `renderer` event declarations.
 
 The user provides the paths to the module(s), and selects the interfaces from a list of exported interfaces in the selected module(s).
 
 Once this information is provided, the user may choose a path for the CLI to write a JSON file containing this information, to be used later by the `register` command.
 
-If the default path (`./electron-reactive-event.json`) is not used, then a property `electron-reactive-event-cli` is added under the `package.json`'s `config` property, which contains the given path.
+If the default path (`./reactive-event.json`) is not used, then a property `reactive-event-cli` is added under the `package.json`'s `config` property, which contains the given path.
 
 The user is also asked if they would like to have a script added to their `package.json` to call the `register` command more ergonomically.
 It is recommended to let the wizard create this script, and to modify any `build` or `prestart` scripts to call this script within them.

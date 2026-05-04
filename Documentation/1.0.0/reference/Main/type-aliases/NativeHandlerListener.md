@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Main](../index.md) / NativeHandlerListener
+[reactive-event](../../index.md) / [Main](../index.md) / NativeHandlerListener
 
 # NativeHandlerListener Type
 

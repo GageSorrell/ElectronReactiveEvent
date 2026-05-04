@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Listener](../index.md) / Listener
+[reactive-event](../../index.md) / [Listener](../index.md) / Listener
 
 # Listener Type
 

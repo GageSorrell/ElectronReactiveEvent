@@ -1,5 +1,5 @@
 {
-  "name": "electron-reactive-event-documentation",
+  "name": "reactive-event-documentation",
   "private": true,
   "scripts": {
     "predev": "typedoc",

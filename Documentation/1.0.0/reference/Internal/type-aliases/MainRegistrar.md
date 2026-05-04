@@ -1,4 +1,4 @@
-[electron-reactive-event](../../index.md) / [Internal](../index.md) / MainRegistrar
+[reactive-event](../../index.md) / [Internal](../index.md) / MainRegistrar
 
 # MainRegistrar Type
 

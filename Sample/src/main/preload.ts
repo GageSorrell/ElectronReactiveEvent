@@ -5,6 +5,6 @@
  * @license   MIT
  */
 
-import { exposeReactiveIpcUnsafe } from "electron-reactive-event/unsafe";
+import { exposeReactiveIpcUnsafe } from "reactive-event/unsafe";
 
 exposeReactiveIpcUnsafe();
